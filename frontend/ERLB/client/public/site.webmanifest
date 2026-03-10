@@ -1,0 +1,9 @@
+{
+  "name": "ERLB",
+  "short_name": "ERLB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f3",
+  "theme_color": "#2e7d32",
+  "icons": []
+}
