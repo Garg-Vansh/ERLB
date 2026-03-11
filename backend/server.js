@@ -2,7 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
 require("dotenv").config()
-
+const chatRoutes = require("C:/Users/vansh/OneDrive/Desktop/erlb/code/website/backend/routes/chatbotRoutes.js")
 const authRoutes = require("C:/Users/vansh/OneDrive/Desktop/erlb/code/website/backend/routes/authRoutes.js")
 
 const app = express()
@@ -15,6 +15,7 @@ app.use(cors({
 app.use(express.json())
 
 app.use("/api/auth", authRoutes)
+app.use("/api/chat", chatRoutes)
 
 mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB Connected"))

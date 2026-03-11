@@ -1,0 +1,157 @@
+{
+  "start": {
+    "message": "Hi 👋 Welcome to ERLB Healthy Foods. We specialize in nutritious millet-based products. How can I assist you today?",
+    "options": [
+      { "text": "View Products", "next": "products" },
+      { "text": "Benefits of Millets", "next": "benefits" },
+      { "text": "Track My Order", "next": "trackOrder" },
+      { "text": "Contact Support", "next": "support" }
+    ]
+  },
+
+  "products": {
+    "message": "Here are our healthy millet-based products.",
+    "options": [
+      { "text": "Millet Biscuits", "next": "biscuits" },
+      { "text": "Millet Premixes", "next": "premixes" },
+      { "text": "Other Healthy Products", "next": "otherProducts" },
+      { "text": "Go Back", "next": "start" }
+    ]
+  },
+
+  "biscuits": {
+    "message": "Our millet biscuits are made with natural ingredients and contain no harmful preservatives.",
+    "options": [
+      { "text": "Available Flavours", "next": "biscuitFlavours" },
+      { "text": "Ingredients Used", "next": "ingredients" },
+      { "text": "Buy Now", "next": "buy" },
+      { "text": "Go Back", "next": "products" }
+    ]
+  },
+
+  "biscuitFlavours": {
+    "message": "We offer multiple healthy biscuit flavours made with millets.",
+    "options": [
+      { "text": "Price Details", "next": "pricing" },
+      { "text": "Buy Now", "next": "buy" },
+      { "text": "Go Back", "next": "biscuits" }
+    ]
+  },
+
+  "premixes": {
+    "message": "Our millet premixes make it easy to prepare healthy meals quickly.",
+    "options": [
+      { "text": "Available Premixes", "next": "premixList" },
+      { "text": "Cooking Instructions", "next": "cooking" },
+      { "text": "Buy Now", "next": "buy" },
+      { "text": "Go Back", "next": "products" }
+    ]
+  },
+
+  "premixList": {
+    "message": "We offer premixes for dosa, pancakes, and other nutritious meals.",
+    "options": [
+      { "text": "Price Details", "next": "pricing" },
+      { "text": "Buy Now", "next": "buy" },
+      { "text": "Go Back", "next": "premixes" }
+    ]
+  },
+
+  "cooking": {
+    "message": "Each premix pack comes with simple cooking instructions for quick preparation.",
+    "options": [
+      { "text": "Buy Premixes", "next": "buy" },
+      { "text": "Go Back", "next": "premixes" }
+    ]
+  },
+
+  "otherProducts": {
+    "message": "We also offer other healthy food products made from natural ingredients.",
+    "options": [
+      { "text": "View Pricing", "next": "pricing" },
+      { "text": "Buy Now", "next": "buy" },
+      { "text": "Go Back", "next": "products" }
+    ]
+  },
+
+  "benefits": {
+    "message": "Millets are rich in fiber, protein, and essential nutrients, making them an excellent choice for a healthy diet.",
+    "options": [
+      { "text": "Health Benefits", "next": "healthBenefits" },
+      { "text": "Nutritional Value", "next": "nutrition" },
+      { "text": "Why Choose Millet Products", "next": "whyMillets" },
+      { "text": "Go Back", "next": "start" }
+    ]
+  },
+
+  "healthBenefits": {
+    "message": "Millets help improve digestion, support heart health, and maintain balanced blood sugar levels.",
+    "options": [
+      { "text": "Nutritional Value", "next": "nutrition" },
+      { "text": "Go Back", "next": "benefits" }
+    ]
+  },
+
+  "nutrition": {
+    "message": "Millets are high in fiber, antioxidants, and essential minerals like iron and magnesium.",
+    "options": [
+      { "text": "Health Benefits", "next": "healthBenefits" },
+      { "text": "Go Back", "next": "benefits" }
+    ]
+  },
+
+  "whyMillets": {
+    "message": "Millets are gluten-free, highly nutritious, and a sustainable food choice.",
+    "options": [
+      { "text": "View Products", "next": "products" },
+      { "text": "Go Back", "next": "benefits" }
+    ]
+  },
+
+  "pricing": {
+    "message": "Our product prices vary depending on the item and pack size.",
+    "options": [
+      { "text": "Buy Now", "next": "buy" },
+      { "text": "Go Back", "next": "products" }
+    ]
+  },
+
+  "buy": {
+    "message": "You can purchase our products directly from our website or authorized sellers.",
+    "options": [
+      { "text": "View Products Again", "next": "products" },
+      { "text": "Contact Support", "next": "support" }
+    ]
+  },
+
+  "trackOrder": {
+    "message": "Please enter your order ID to check the status of your order.",
+    "options": [
+      { "text": "Contact Support", "next": "support" },
+      { "text": "Go Back", "next": "start" }
+    ]
+  },
+
+  "support": {
+    "message": "Our support team is happy to help you.",
+    "options": [
+      { "text": "Email Support", "next": "emailSupport" },
+      { "text": "Call Support", "next": "callSupport" },
+      { "text": "Go Back", "next": "start" }
+    ]
+  },
+
+  "emailSupport": {
+    "message": "You can reach us at support@erlbfoods.com for assistance.",
+    "options": [
+      { "text": "Go Back", "next": "support" }
+    ]
+  },
+
+  "callSupport": {
+    "message": "You can call our support team at +91-XXXXXXXXXX during business hours.",
+    "options": [
+      { "text": "Go Back", "next": "support" }
+    ]
+  }
+}
